@@ -45,7 +45,9 @@ Task Description:-
  
  -> run command to create image
     docker build -t task2_mlops:v5 .  (here . represents the current directory)
-    *************************
+    ![](screenshots/1.png)
+    ![](screenshots/2.png)
+    
   2.Now we have to run this image
   
   # docker run -it --privileged -p 9999:8080 -v /:/host task2_mlops:v5
