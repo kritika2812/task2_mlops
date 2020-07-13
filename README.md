@@ -70,14 +70,14 @@ Task Description:-
     If everything is working fine You can check the Webpages
     **********************
     
-  7. Creating job3 in jenkins
+ 7. Creating job3 in jenkins
      Job3 will Test if our websites are working or not.
      ****************
      
-  8. Job4 will send the confirmation mail to the developer.
+ 8. Job4 will send the confirmation mail to the developer.
      *********************
      
-  9. Creating job5 in jenkins
+ 9. Creating job5 in jenkins
      This job will monitor If containers where websites are running. fails due to any reason then this job should automatically start that respective container again.
       **********************
     
