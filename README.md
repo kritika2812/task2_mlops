@@ -41,7 +41,7 @@ Task Description:-
  
  write the following code:
  
- ![](screenshots/job1_config.png)
+ ![](screenshots/image.png)
  
  -> run command to create image
     docker build -t task2_mlops:v5 .  (here . represents the current directory)
