@@ -45,8 +45,9 @@ Task Description:-
  
  -> run command to create image
     docker build -t task2_mlops:v5 .  (here . represents the current directory)
-    ![](screenshots/1.png)
-    ![](screenshots/2.png)
+    ![](screenshots/1.PNG)
+    ![](screenshots/2.PNG)
+    ![](screenshots/3.PNG)
     
   2.Now we have to run this image
   
@@ -64,7 +65,9 @@ Task Description:-
     
     then enter the url- Ip of host machine:9999
     
-    *********************************************
+    ![](screenshots/4.PNG)
+    ![](screenshots/5.PNG)
+    ![](screenshots/6.PNG)
     
   4.Create your repository in github and add all the files there.
   
