@@ -11,6 +11,7 @@ Rhel8- as a base os for running services.
 Docker- to Deploy webpages and jenkins.
 
 Task Description:-
+
 1. Create container image that’s has Jenkins installed using Dockerfile.
 
 2. When we launch this image, it should automatically starts Jenkins service in the container.
@@ -29,40 +30,61 @@ Task Description:-
 
 
 1.Tocreate customized image:
-  To create a dockerfile I have created a new folder named ws.
+
+ To create a dockerfile I have created a new folder named mydocker.
  # mkdir mydocker/
  # cd /mydocker
+ 
  Then create a docker file in mydocker directory using
+ 
  #gedit Dockerfile
+ 
  write the following code:
+ 
  **********************
  
  -> run command to create image
     docker build -t task2_mlops:v5 .  (here . represents the current directory)
     *************************
   2.Now we have to run this image
+  
   # docker run -it --privileged -p 9999:8080 -v /:/host task2_mlops:v5
+  
   -  privileged is used to give container root capabilities of a host machine
+  
   -  we have set the port 9999 of host machine to access the port 8080 of docker container on which the jenkins works.
+  
   3.jenkins setup
+  
     copy the password given after running the docker image.
+    
     go to the browser
+    
     then enter the url- Ip of host machine:9999
+    
     *********************************************
     
   4.Create your repository in github and add all the files there.
   
   5.Creating job1 in jenkins
+  
    Job1 will pull the github repository automatically when the developer push any update.
    ******************
    
   6.Creating Job2 in Jenkins-
-   Job2 will look at the code or program file, and then automatically start the respective language interpreter install image container to deploy code i.e If code is of PHP,        then Jenkins should start the container that has PHP already installed and if the code is of HTML then jenkins should start container with httpd.
+  
+   Job2 will look at the code or program file, and then automatically start the respective language interpreter install image container to deploy code i.e If code is of PHP, 
+   
+   then Jenkins should start the container that has PHP already installed and if the code is of HTML then jenkins should start container with httpd.
    
    I have used two images : httpd for html codes and vimal13/apache-webserver-php for php codes
+   
       #docker pull httpd
+      
       #docker pull vimal13/apache-webserver-php
-    These images are downloaded on Base os 
+      
+    These images are downloaded on Base os
+    
     *************************
     ***************
     Here chroot is used to replicate the directory of docker container to our BaseOS.
