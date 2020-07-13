@@ -8,7 +8,7 @@ Jenkins- to automate various jobs.
 
 Rhel8- as a base os for running services.
 
-Docker- to Deploywebpages and jenkins.
+Docker- to Deploy webpages and jenkins.
 
 Task Description:-
 1. Create container image that’s has Jenkins installed using Dockerfile.
