@@ -75,7 +75,9 @@ Task Description:-
   5.Creating job1 in jenkins
   
    Job1 will pull the github repository automatically when the developer push any update.
-   ******************
+   ![](screenshots/screenshot(92).png)
+   
+   ![](screenshots/screenshot(93).png)
    
   6.Creating Job2 in Jenkins-
   
@@ -91,9 +93,9 @@ Task Description:-
       
     These images are downloaded on Base os
     
-    *************************
-    ***************
-    Here chroot is used to replicate the directory of docker container to our BaseOS.
+  ![](screenshots/5.png)
+   
+   Here chroot is used to replicate the directory of docker container to our BaseOS.
     
     If everything is working fine You can check the Webpages
     **********************
