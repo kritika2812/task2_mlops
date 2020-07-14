@@ -117,9 +117,11 @@ Task Description:-
      
  9. Creating job5 in jenkins
      This job will monitor If containers where websites are running. fails due to any reason then this job should automatically start that respective container again.
- ![](screenshots/Screenshot%20(102).png)
+![](screenshots/Screenshot%20(104).png)
+ 
+![](screenshots/Screenshot%20(105).png)
   
- ![](screenshots/Screenshot%20(103).png)
+![](screenshots/Screenshot%20(106).png)
    
     
     
