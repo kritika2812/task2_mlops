@@ -108,14 +108,19 @@ Task Description:-
     
  7. Creating job3 in jenkins
      Job3 will Test if our websites are working or not.
-     ****************
+ ![](screenshotsScreenshot%20(99).png)
+ 
+ ![](screenshotsScreenshot%20(100).png)
      
  8. Job4 will send the confirmation mail to the developer.
-     *********************
+  ![](screenshotsScreenshot%20(101).png)
      
  9. Creating job5 in jenkins
      This job will monitor If containers where websites are running. fails due to any reason then this job should automatically start that respective container again.
-      **********************
+  ![](screenshotsScreenshot%20(102).png)
+  
+  ![](screenshotsScreenshot%20(103).png)
+   
     
     
     
