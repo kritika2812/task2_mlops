@@ -98,7 +98,10 @@ Task Description:-
    Here chroot is used to replicate the directory of docker container to our BaseOS.
     
     If everything is working fine You can check the Webpages
-    **********************
+ ![](screenshots/Screenshot%20(96).png)
+ 
+ ![](screenshots/Screenshot%20(97).png)
+ 
     
  7. Creating job3 in jenkins
      Job3 will Test if our websites are working or not.
