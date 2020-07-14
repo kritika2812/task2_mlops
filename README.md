@@ -1,4 +1,4 @@
-                                              Website Deployment Automation using jenkins
+## Website Deployment Automation using jenkins
 
 Tools Used:
 
@@ -67,7 +67,7 @@ Task Description:-
 
 ![](screenshots/5.PNG)
 
-![](screenshots/6.PNG
+![](screenshots/6.PNG)
     
   4.Create your repository in github and add all the files there.
   
