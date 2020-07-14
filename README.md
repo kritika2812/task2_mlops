@@ -46,8 +46,10 @@ Task Description:-
  -> run command to create image
     docker build -t task2_mlops:v5 .  (here . represents the current directory)
     ![](screenshots/1.PNG)
-    ![](screenshots/2.PNG)
-    ![](screenshots/3.PNG)
+    
+   ![](screenshots/2.PNG)
+    
+   ![](screenshots/3.PNG)
     
   2.Now we have to run this image
   
