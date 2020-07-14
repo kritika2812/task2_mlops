@@ -58,14 +58,16 @@ Task Description:-
   -  we have set the port 9999 of host machine to access the port 8080 of docker container on which the jenkins works.
   
   3.jenkins setup
+  copy the password given after running the docker image.
+    
+   go to the browser
   
-    copy the password given after running the docker image.
-    
-    go to the browser
-    
-    then enter the url- Ip of host machine:9999
-    
-    
+  then enter the url- Ip of host machine:9999
+![](screenshots/4.PNG)
+
+![](screenshots/5.PNG)
+
+![](screenshots/6.PNG
     
   4.Create your repository in github and add all the files there.
   
