@@ -65,10 +65,9 @@ Task Description:-
   then enter the url- Ip of host machine:9999
 ![](screenshots/4.PNG)
 
-![](screenshots/5.PNG)
-
-![](screenshots/6.PNG)
+![](screenshots/6.png)
     
+ 
   4.Create your repository in github and add all the files there.
   
   5.Creating job1 in jenkins
