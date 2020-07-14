@@ -94,13 +94,16 @@ Task Description:-
     These images are downloaded on Base os
     
   ![](screenshots/5.png)
+  
+  Now create job 2 in jenkins :
+  ![](screenshots/Screenshot%20(96).png)
+ 
+ ![](screenshots/Screenshot%20(97).png)
    
    Here chroot is used to replicate the directory of docker container to our BaseOS.
     
     If everything is working fine You can check the Webpages
- ![](screenshots/Screenshot%20(96).png)
  
- ![](screenshots/Screenshot%20(97).png)
  
     
  7. Creating job3 in jenkins
