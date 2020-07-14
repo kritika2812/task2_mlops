@@ -1,4 +1,4 @@
-                                                      Website Deployment Automation using jenkins
+                                              Website Deployment Automation using jenkins
 
 Tools Used:
 
@@ -65,9 +65,7 @@ Task Description:-
     
     then enter the url- Ip of host machine:9999
     
-    ![](screenshots/4.PNG)
-    ![](screenshots/5.Png)
-    ![](screenshots/6.Png)
+    
     
   4.Create your repository in github and add all the files there.
   
