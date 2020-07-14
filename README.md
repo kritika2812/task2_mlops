@@ -75,7 +75,7 @@ Task Description:-
   5.Creating job1 in jenkins
   
    Job1 will pull the github repository automatically when the developer push any update.
- ![](screenshots/Screenshot(92).png)
+ ![](screenshots/Screenshot (92).png)
    
  ![](screenshots/Screenshot(93).png)
    
